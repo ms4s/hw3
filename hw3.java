@@ -1,7 +1,6 @@
-package Project.First.HomeWork3;
+package Project.Home;
 
-
-public class HomeWork3 {
+public class hw3 {
     public static void main(String[] args) {
         System.out.println("1.");
         int[][] arr = {{2, -5},{-1, 7}};
@@ -44,7 +43,7 @@ public class HomeWork3 {
         for (int i = 0; i < mainArr.length; i++) {
             for (int j = 0; j < mainArr[i].length; j++) {
                 if (i == j){
-                        mainArr[i][j] = 0;
+                    mainArr[i][j] = 0;
                 }
             }
         }
@@ -79,7 +78,6 @@ public class HomeWork3 {
             }
         }
         System.out.println(result);
-    return result;
+        return result;
     }
 }
-
